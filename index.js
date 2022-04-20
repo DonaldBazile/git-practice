@@ -1,6 +1,10 @@
-console.log('test')
-
-function addNumber(a, b){
-    return a + b
+for (i = 10; i > 0; i--) {
+    console.log(i)
 }
-console.log(addNumber(4,8))
+
+function cube(num){
+    res = num * num * num
+}
+
+cube(3)
+console.log(cube(3))
